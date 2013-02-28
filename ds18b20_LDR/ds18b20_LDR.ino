@@ -62,7 +62,7 @@ void loop () {
  delay(1000);
  
  rf12_sleep(RF12_SLEEP);
- Sleepy::loseSomeTime(60000);
+ Sleepy::loseSomeTime(1000);
  rf12_sleep(RF12_WAKEUP);
 }
 
